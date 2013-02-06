@@ -24,7 +24,19 @@
 		C4E3504816C04CC900B2E804 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E3501C16C04CC900B2E804 /* UIKit.framework */; };
 		C4E3504916C04CC900B2E804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E3501E16C04CC900B2E804 /* Foundation.framework */; };
 		C4E3505116C04CC900B2E804 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4E3504F16C04CC900B2E804 /* InfoPlist.strings */; };
-		C4E3505416C04CC900B2E804 /* Objective_C_runtimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3505316C04CC900B2E804 /* Objective_C_runtimeTests.m */; };
+		C4E3505416C04CC900B2E804 /* RuntimeLifecycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3505316C04CC900B2E804 /* RuntimeLifecycleTests.m */; };
+		C4E3506116C04DEC00B2E804 /* RuntimeLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3506016C04DEC00B2E804 /* RuntimeLifecycle.m */; };
+		C4E3506216C04DEC00B2E804 /* RuntimeLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3506016C04DEC00B2E804 /* RuntimeLifecycle.m */; };
+		C4E3506516C06BA900B2E804 /* MethodRedirection.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3506416C06BA900B2E804 /* MethodRedirection.m */; };
+		C4E3506616C06BA900B2E804 /* MethodRedirection.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3506416C06BA900B2E804 /* MethodRedirection.m */; };
+		C4E3507016C1971500B2E804 /* AspectHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3506F16C1971500B2E804 /* AspectHolder.m */; };
+		C4E3507116C1971500B2E804 /* AspectHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3506F16C1971500B2E804 /* AspectHolder.m */; };
+		C4E3507A16C2A25600B2E804 /* AspectHolderObservingInterfaceAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3507916C2A25600B2E804 /* AspectHolderObservingInterfaceAggregation.m */; };
+		C4E3507B16C2A25600B2E804 /* AspectHolderObservingInterfaceAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3507916C2A25600B2E804 /* AspectHolderObservingInterfaceAggregation.m */; };
+		C4E3507E16C2A28500B2E804 /* AspectHolderObservingInterfaceAggregationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3507D16C2A28500B2E804 /* AspectHolderObservingInterfaceAggregationTests.m */; };
+		C4E3508416C2A33600B2E804 /* AspectHolderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3508316C2A33600B2E804 /* AspectHolderTests.m */; };
+		C4E3508716C2A5CB00B2E804 /* TestSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3508616C2A5CB00B2E804 /* TestSupport.m */; };
+		C4E3508A16C2A60200B2E804 /* MethodRedirectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E3508916C2A60200B2E804 /* MethodRedirectionTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +73,20 @@
 		C4E3504616C04CC900B2E804 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C4E3504E16C04CC900B2E804 /* Objective-C runtimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Objective-C runtimeTests-Info.plist"; sourceTree = "<group>"; };
 		C4E3505016C04CC900B2E804 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C4E3505216C04CC900B2E804 /* Objective_C_runtimeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Objective_C_runtimeTests.h; sourceTree = "<group>"; };
-		C4E3505316C04CC900B2E804 /* Objective_C_runtimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Objective_C_runtimeTests.m; sourceTree = "<group>"; };
+		C4E3505316C04CC900B2E804 /* RuntimeLifecycleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeLifecycleTests.m; sourceTree = "<group>"; };
+		C4E3506016C04DEC00B2E804 /* RuntimeLifecycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeLifecycle.m; sourceTree = "<group>"; };
+		C4E3506316C06BA900B2E804 /* MethodRedirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodRedirection.h; sourceTree = "<group>"; };
+		C4E3506416C06BA900B2E804 /* MethodRedirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodRedirection.m; sourceTree = "<group>"; };
+		C4E3506B16C1733D00B2E804 /* RuntimeLifecycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeLifecycle.h; sourceTree = "<group>"; };
+		C4E3506E16C1971500B2E804 /* AspectHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectHolder.h; sourceTree = "<group>"; };
+		C4E3506F16C1971500B2E804 /* AspectHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectHolder.m; sourceTree = "<group>"; };
+		C4E3507816C2A25600B2E804 /* AspectHolderObservingInterfaceAggregation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectHolderObservingInterfaceAggregation.h; sourceTree = "<group>"; };
+		C4E3507916C2A25600B2E804 /* AspectHolderObservingInterfaceAggregation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectHolderObservingInterfaceAggregation.m; sourceTree = "<group>"; };
+		C4E3507D16C2A28500B2E804 /* AspectHolderObservingInterfaceAggregationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectHolderObservingInterfaceAggregationTests.m; sourceTree = "<group>"; };
+		C4E3508316C2A33600B2E804 /* AspectHolderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectHolderTests.m; sourceTree = "<group>"; };
+		C4E3508516C2A5CB00B2E804 /* TestSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSupport.h; sourceTree = "<group>"; };
+		C4E3508616C2A5CB00B2E804 /* TestSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSupport.m; sourceTree = "<group>"; };
+		C4E3508916C2A60200B2E804 /* MethodRedirectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodRedirectionTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				C4E3502216C04CC900B2E804 /* Objective-C runtime */,
-				C4E3504C16C04CC900B2E804 /* Objective-C runtimeTests */,
+				C4E3504C16C04CC900B2E804 /* Tests */,
+				C4E3504D16C04CC900B2E804 /* Supporting Files */,
 				C4E3501B16C04CC900B2E804 /* Frameworks */,
 				C4E3501A16C04CC900B2E804 /* Products */,
 			);
@@ -122,14 +147,8 @@
 		C4E3502216C04CC900B2E804 /* Objective-C runtime */ = {
 			isa = PBXGroup;
 			children = (
-				C4E3502B16C04CC900B2E804 /* AppDelegate.h */,
-				C4E3502C16C04CC900B2E804 /* AppDelegate.m */,
-				C4E3503416C04CC900B2E804 /* MainStoryboard_iPhone.storyboard */,
-				C4E3503716C04CC900B2E804 /* MainStoryboard_iPad.storyboard */,
-				C4E3503A16C04CC900B2E804 /* MasterViewController.h */,
-				C4E3503B16C04CC900B2E804 /* MasterViewController.m */,
-				C4E3503D16C04CC900B2E804 /* DetailViewController.h */,
-				C4E3503E16C04CC900B2E804 /* DetailViewController.m */,
+				C4E3505E16C04DC900B2E804 /* Runtime examples */,
+				C4E3505D16C04DB800B2E804 /* UI */,
 				C4E3502316C04CC900B2E804 /* Supporting Files */,
 			);
 			path = "Objective-C runtime";
@@ -138,6 +157,8 @@
 		C4E3502316C04CC900B2E804 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C4E3502B16C04CC900B2E804 /* AppDelegate.h */,
+				C4E3502C16C04CC900B2E804 /* AppDelegate.m */,
 				C4E3502416C04CC900B2E804 /* Objective-C runtime-Info.plist */,
 				C4E3502516C04CC900B2E804 /* InfoPlist.strings */,
 				C4E3502816C04CC900B2E804 /* main.m */,
@@ -149,13 +170,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C4E3504C16C04CC900B2E804 /* Objective-C runtimeTests */ = {
+		C4E3504C16C04CC900B2E804 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C4E3505216C04CC900B2E804 /* Objective_C_runtimeTests.h */,
-				C4E3505316C04CC900B2E804 /* Objective_C_runtimeTests.m */,
-				C4E3504D16C04CC900B2E804 /* Supporting Files */,
+				C4E3508516C2A5CB00B2E804 /* TestSupport.h */,
+				C4E3508616C2A5CB00B2E804 /* TestSupport.m */,
+				C4E3505316C04CC900B2E804 /* RuntimeLifecycleTests.m */,
+				C4E3508916C2A60200B2E804 /* MethodRedirectionTests.m */,
+				C4E3508316C2A33600B2E804 /* AspectHolderTests.m */,
+				C4E3507D16C2A28500B2E804 /* AspectHolderObservingInterfaceAggregationTests.m */,
 			);
+			name = Tests;
 			path = "Objective-C runtimeTests";
 			sourceTree = "<group>";
 		};
@@ -166,6 +191,35 @@
 				C4E3504F16C04CC900B2E804 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			path = "Objective-C runtimeTests";
+			sourceTree = "<group>";
+		};
+		C4E3505D16C04DB800B2E804 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C4E3503416C04CC900B2E804 /* MainStoryboard_iPhone.storyboard */,
+				C4E3503716C04CC900B2E804 /* MainStoryboard_iPad.storyboard */,
+				C4E3503A16C04CC900B2E804 /* MasterViewController.h */,
+				C4E3503B16C04CC900B2E804 /* MasterViewController.m */,
+				C4E3503D16C04CC900B2E804 /* DetailViewController.h */,
+				C4E3503E16C04CC900B2E804 /* DetailViewController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		C4E3505E16C04DC900B2E804 /* Runtime examples */ = {
+			isa = PBXGroup;
+			children = (
+				C4E3506B16C1733D00B2E804 /* RuntimeLifecycle.h */,
+				C4E3506016C04DEC00B2E804 /* RuntimeLifecycle.m */,
+				C4E3506316C06BA900B2E804 /* MethodRedirection.h */,
+				C4E3506416C06BA900B2E804 /* MethodRedirection.m */,
+				C4E3506E16C1971500B2E804 /* AspectHolder.h */,
+				C4E3506F16C1971500B2E804 /* AspectHolder.m */,
+				C4E3507816C2A25600B2E804 /* AspectHolderObservingInterfaceAggregation.h */,
+				C4E3507916C2A25600B2E804 /* AspectHolderObservingInterfaceAggregation.m */,
+			);
+			name = "Runtime examples";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +337,10 @@
 				C4E3502D16C04CC900B2E804 /* AppDelegate.m in Sources */,
 				C4E3503C16C04CC900B2E804 /* MasterViewController.m in Sources */,
 				C4E3503F16C04CC900B2E804 /* DetailViewController.m in Sources */,
+				C4E3506116C04DEC00B2E804 /* RuntimeLifecycle.m in Sources */,
+				C4E3506516C06BA900B2E804 /* MethodRedirection.m in Sources */,
+				C4E3507016C1971500B2E804 /* AspectHolder.m in Sources */,
+				C4E3507A16C2A25600B2E804 /* AspectHolderObservingInterfaceAggregation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +348,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E3505416C04CC900B2E804 /* Objective_C_runtimeTests.m in Sources */,
+				C4E3506216C04DEC00B2E804 /* RuntimeLifecycle.m in Sources */,
+				C4E3506616C06BA900B2E804 /* MethodRedirection.m in Sources */,
+				C4E3507116C1971500B2E804 /* AspectHolder.m in Sources */,
+				C4E3507B16C2A25600B2E804 /* AspectHolderObservingInterfaceAggregation.m in Sources */,
+				C4E3505416C04CC900B2E804 /* RuntimeLifecycleTests.m in Sources */,
+				C4E3508A16C2A60200B2E804 /* MethodRedirectionTests.m in Sources */,
+				C4E3508416C2A33600B2E804 /* AspectHolderTests.m in Sources */,
+				C4E3507E16C2A28500B2E804 /* AspectHolderObservingInterfaceAggregationTests.m in Sources */,
+				C4E3508716C2A5CB00B2E804 /* TestSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +539,7 @@
 				C4E3505916C04CC900B2E804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4E3505A16C04CC900B2E804 /* Build configuration list for PBXNativeTarget "Objective-C runtimeTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +548,7 @@
 				C4E3505C16C04CC900B2E804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
